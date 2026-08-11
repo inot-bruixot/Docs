@@ -1,0 +1,3 @@
+- [Design Option B pan/tilt build](project_pantilt_design_option_b.md) — finished CadQuery STEP model, 16 parts/22 occ, path + key coords
+- [CadQuery gotchas](feedback_cadquery_gotchas.md) — BOPAlgo_Builder cast, newObject-breaks-cut, XZ-plane extrudes -Y not +Y
+- [Env file instability incident](project_claude_env_file_instability.md) — uncommitted files vanished mid-task 2026-08-11; commit promptly
