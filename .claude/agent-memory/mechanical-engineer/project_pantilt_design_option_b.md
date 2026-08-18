@@ -13,7 +13,11 @@ build: `/home/inot/CLAUDE/mechanical_design/build_design_option_b.py` -> exports
 **Why it exists:** the user disliked Redesign A
 (`/home/inot/CLAUDE/Docs/PanTilt_Mini_28BYJ48_Redesign.pdf`, 110x126x85mm, 11 unique/19
 total parts) because it merged/deleted parts and swapped bearing families away from the
-original `ASSEMBLY_pan_tilt.STEP` (306.5x298.1x303.7mm, 17 unique/25 occurrences). Design
+original `ASSEMBLY_pan_tilt.STEP` (306.5x298.1x303.7mm, 17 unique/25 occurrences — **correction
+2026-08-16**: a fresh B-rep bounding-box check via `OCP.STEPCAFControl_Reader` during the Option F task
+found the real figure is 245.256 x 298.037 x 269.770mm, 16 unique parts / 24 occurrences; treat the
+original 306.5x298.1x303.7 / 17-unique/25-occurrence numbers in this paragraph as stale, see
+[[project-pantilt-option-f]] for the verified figures and method). Design
 Option B (`/home/inot/CLAUDE/Docs/Design-Option_B.pdf`) keeps Redesign A's small size
 class but restores the original's part-by-part structure: separate motor plate, separate
 tilt hub, a real Cam Holder fork/pivot joint (not fused into the tilt platform), flanged
